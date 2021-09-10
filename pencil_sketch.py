@@ -1,4 +1,4 @@
-import cv2
+import cv2 # pip install opencv-python
 
 image = cv2.imread("dog.jpg")
 gray_image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
